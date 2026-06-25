@@ -48,7 +48,7 @@ Vite의 `base` 값은 GitHub Actions 환경의 `GITHUB_REPOSITORY` 값을 기준
 
 데이터는 네이버 금융 모바일 API를 우선 사용하고, 실패할 경우 Yahoo Finance chart API를 예비 소스로 사용합니다.
 
-워크플로는 매일 한국시간 12:00, 15:40에 실행되도록 설정되어 있습니다. GitHub Actions cron은 UTC 기준이므로 `.github/workflows/update-market-data.yml`에 `03:00 UTC = 12:00 KST`, `06:40 UTC = 15:40 KST` 주석을 함께 적었습니다. 휴장일에는 보통 새 거래일 데이터가 없어 파일 변경이 발생하지 않습니다.
+워크플로는 매일 한국시간 12:00, 15:40, 20:10에 실행되도록 설정되어 있습니다. GitHub Actions cron은 UTC 기준이므로 `.github/workflows/update-market-data.yml`에 `03:00 UTC = 12:00 KST`, `06:40 UTC = 15:40 KST`, `11:10 UTC = 20:10 KST` 주석을 함께 적었습니다. 휴장일에는 보통 새 거래일 데이터가 없어 파일 변경이 발생하지 않습니다.
 
 Actions가 실패하더라도 기존 `market-data.json` 파일은 저장소에 남아 있으므로 사이트는 마지막으로 성공한 데이터로 계속 표시됩니다.
 

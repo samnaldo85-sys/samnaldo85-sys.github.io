@@ -1,12 +1,13 @@
 import type { AssetData, MarketPoint } from '../types';
-import { formatDisparity, formatPrice, statusClassName } from '../utils/format';
+import { formatDisparity, formatPrice, formatUpdatedAt, statusClassName } from '../utils/format';
 
 interface RecentTableProps {
   asset: AssetData;
   records: MarketPoint[];
+  generatedAt: string;
 }
 
-export function RecentTable({ asset, records }: RecentTableProps) {
+export function RecentTable({ asset, records, generatedAt }: RecentTableProps) {
   const rows = [...records]
     .filter((item) => item.ma50 != null && item.disparity != null)
     .reverse()
@@ -17,7 +18,9 @@ export function RecentTable({ asset, records }: RecentTableProps) {
       <div className="mb-4 flex items-end justify-between gap-3">
         <div>
           <h2 className="text-lg font-semibold text-white">최근 기록</h2>
-          <p className="mt-1 text-sm text-slate-400">최근 20개 거래일 기준</p>
+          <p className="mt-1 text-sm text-slate-400">
+            최근 20개 거래일 기준 · 데이터 갱신 {formatUpdatedAt(generatedAt)} KST
+          </p>
         </div>
       </div>
       <div className="overflow-x-auto">

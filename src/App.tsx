@@ -70,9 +70,9 @@ function App() {
             <PriceChart asset={asset} data={priceData} range={priceRange} onRangeChange={setPriceRange} />
             <DisparityChart data={disparityData} range={disparityRange} onRangeChange={setDisparityRange} />
           </div>
-          <RecentTable asset={asset} records={asset.records} />
+          <RecentTable asset={asset} records={asset.records} generatedAt={marketData.generatedAt} />
           <footer className="pb-4 pt-2 text-center text-xs text-slate-500">
-            데이터: Yahoo Finance 공개 데이터 · 갱신: 매 거래일 12:00 / 15:40 KST · 정보 제공용
+            데이터: 네이버 금융 우선 · 갱신: 매일 12:00 / 15:40 / 20:10 KST · 정보 제공용
           </footer>
         </div>
       )}

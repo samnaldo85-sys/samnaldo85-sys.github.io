@@ -19,6 +19,22 @@ export function formatDisparity(value: number | null | undefined) {
   return `${value.toFixed(2)}%`;
 }
 
+export function formatUpdatedAt(value: string | null | undefined) {
+  if (!value) return '갱신 시간 확인 불가';
+  const date = new Date(value);
+  if (Number.isNaN(date.getTime())) return '갱신 시간 확인 불가';
+
+  return new Intl.DateTimeFormat('ko-KR', {
+    timeZone: 'Asia/Seoul',
+    year: 'numeric',
+    month: '2-digit',
+    day: '2-digit',
+    hour: '2-digit',
+    minute: '2-digit',
+    hour12: false,
+  }).format(date);
+}
+
 export function statusClassName(status: Status | null | undefined) {
   switch (status) {
     case '과열해소':

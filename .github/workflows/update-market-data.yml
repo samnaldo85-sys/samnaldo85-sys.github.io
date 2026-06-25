@@ -3,10 +3,11 @@ name: Update market data
 on:
   schedule:
     # GitHub Actions cron is UTC.
-    # 03:00 UTC = 12:00 KST, 06:40 UTC = 15:40 KST.
+    # 03:00 UTC = 12:00 KST, 06:40 UTC = 15:40 KST, 11:10 UTC = 20:10 KST.
     # Runs every day; non-trading days usually produce no data change.
     - cron: '0 3 * * *'
     - cron: '40 6 * * *'
+    - cron: '10 11 * * *'
   workflow_dispatch:
 
 permissions:
