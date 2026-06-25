@@ -72,7 +72,7 @@ function App() {
           </div>
           <RecentTable asset={asset} records={asset.records} generatedAt={marketData.generatedAt} />
           <footer className="pb-4 pt-2 text-center text-xs text-slate-500">
-            데이터: 네이버 금융 우선 · 갱신: 매일 12:00 / 15:40 / 20:10 KST · 정보 제공용
+            데이터 출처: KRX/Naver 기반 공개 데이터 수집 · 갱신: 매일 12:00 / 15:40 / 20:10 KST · 데이터 제공처 반영 지연 또는 오류가 있을 수 있습니다 · 정보 제공용
           </footer>
         </div>
       )}

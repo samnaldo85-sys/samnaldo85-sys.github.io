@@ -10,7 +10,7 @@ interface SummaryCardsProps {
 export function SummaryCards({ asset, latest }: SummaryCardsProps) {
   const cards = [
     {
-      label: '현재가',
+      label: '최근 종가',
       value: latest ? formatPrice(latest.close, asset.unit) : '-',
       icon: Wallet,
     },

@@ -7,7 +7,7 @@
     "dev": "vite --configLoader native --host 127.0.0.1 --port 5173",
     "build": "tsc -b && vite build --configLoader native",
     "preview": "vite preview --configLoader native --host 127.0.0.1 --port 4173",
-    "fetch:data": "tsx scripts/fetchMarketData.ts"
+    "fetch:data": "python scripts/fetchMarketData.py"
   },
   "dependencies": {
     "@vitejs/plugin-react": "^5.0.0",

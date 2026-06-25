@@ -14,6 +14,16 @@ export interface AssetData {
   symbol: string;
   name: string;
   unit: 'index' | 'krw';
+  data: MarketPoint[];
+  lastDate: string | null;
+  lastClose: number | null;
+  date: string | null;
+  close: number | null;
+  ma50: number | null;
+  disparity: number | null;
+  status: Status | null;
+  updatedAtKst: string;
+  source: string;
   records: MarketPoint[];
 }
 

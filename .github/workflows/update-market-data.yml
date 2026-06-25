@@ -4,10 +4,9 @@ on:
   schedule:
     # GitHub Actions cron is UTC.
     # 03:00 UTC = 12:00 KST, 06:40 UTC = 15:40 KST, 11:10 UTC = 20:10 KST.
-    # Runs every day; non-trading days usually produce no data change.
-    - cron: '0 3 * * *'
-    - cron: '40 6 * * *'
-    - cron: '10 11 * * *'
+    - cron: "0 3 * * 1-5"
+    - cron: "40 6 * * 1-5"
+    - cron: "10 11 * * 1-5"
   workflow_dispatch:
 
 permissions:
@@ -25,8 +24,16 @@ jobs:
         with:
           node-version: 22
 
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
       - name: Install dependencies
-        run: npm install
+        run: |
+          npm install
+          python -m pip install --upgrade pip
+          pip install pykrx finance-datareader pandas requests
 
       - name: Fetch market data
         run: npm run fetch:data

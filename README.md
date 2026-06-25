@@ -44,19 +44,23 @@ Vite의 `base` 값은 GitHub Actions 환경의 `GITHUB_REPOSITORY` 값을 기준
 
 ## 데이터 갱신 방식
 
-브라우저에서 외부 금융 API를 직접 호출하지 않고, GitHub Actions가 Node.js 스크립트로 데이터를 받아 `public/data/market-data.json` 파일을 갱신합니다.
+브라우저에서 외부 금융 API를 직접 호출하지 않고, GitHub Actions가 Python 스크립트로 데이터를 받아 `public/data/market-data.json` 파일을 갱신합니다.
 
-데이터는 네이버 금융 모바일 API를 우선 사용하고, 실패할 경우 Yahoo Finance chart API를 예비 소스로 사용합니다.
+데이터는 가입이나 API 키 없이 사용할 수 있는 공개 데이터 수집 방식을 사용합니다. 우선순위는 `pykrx → FinanceDataReader → Yahoo Finance fallback`입니다.
 
-워크플로는 매일 한국시간 12:00, 15:40, 20:10에 실행되도록 설정되어 있습니다. GitHub Actions cron은 UTC 기준이므로 `.github/workflows/update-market-data.yml`에 `03:00 UTC = 12:00 KST`, `06:40 UTC = 15:40 KST`, `11:10 UTC = 20:10 KST` 주석을 함께 적었습니다. 휴장일에는 보통 새 거래일 데이터가 없어 파일 변경이 발생하지 않습니다.
+종가는 일봉 `close` 기준이며, 현재가, `regularMarketPrice`, `adjClose`를 종가처럼 사용하지 않습니다. 50일 이동평균도 같은 일봉 종가 기준으로 계산합니다.
+
+워크플로는 평일 한국시간 12:00, 15:40, 20:10에 실행되도록 설정되어 있습니다. GitHub Actions cron은 UTC 기준이므로 `.github/workflows/update-market-data.yml`에 `03:00 UTC = 12:00 KST`, `06:40 UTC = 15:40 KST`, `11:10 UTC = 20:10 KST` 주석을 함께 적었습니다. 휴장일에는 보통 새 거래일 데이터가 없어 파일 변경이 발생하지 않습니다.
+
+데이터 제공처 반영 지연으로 인해 20:10 갱신 직후에는 실제 확정 종가와 일부 차이가 있을 수 있습니다.
 
 Actions가 실패하더라도 기존 `market-data.json` 파일은 저장소에 남아 있으므로 사이트는 마지막으로 성공한 데이터로 계속 표시됩니다.
 
 ## 심볼
 
-- 코스피: `^KS11`
-- 삼성전자: `005930.KS`
-- SK하이닉스: `000660.KS`
+- 코스피: `KS11`
+- 삼성전자: `005930`
+- SK하이닉스: `000660`
 
 ## 면책 문구
 
