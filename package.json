@@ -1,0 +1,34 @@
+{
+  "name": "korea-market-ma50-disparity-tracker",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --configLoader native --host 127.0.0.1 --port 5173",
+    "build": "tsc -b && vite build --configLoader native",
+    "preview": "vite preview --configLoader native --host 127.0.0.1 --port 4173",
+    "fetch:data": "tsx scripts/fetchMarketData.ts"
+  },
+  "dependencies": {
+    "@vitejs/plugin-react": "^5.0.0",
+    "vite": "^7.0.0",
+    "typescript": "^5.8.0",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "recharts": "^3.0.2",
+    "lucide-react": "^0.468.0"
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.0",
+    "@types/react": "^19.1.0",
+    "@types/react-dom": "^19.1.0",
+    "tailwindcss": "^3.4.17",
+    "postcss": "^8.5.6",
+    "autoprefixer": "^10.4.21",
+    "tsx": "^4.20.3",
+    "eslint": "^9.29.0",
+    "typescript-eslint": "^8.35.0",
+    "eslint-plugin-react-hooks": "^5.2.0",
+    "eslint-plugin-react-refresh": "^0.4.20"
+  }
+}
