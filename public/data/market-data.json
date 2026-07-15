@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-15T06:40:00Z",
+  "generatedAt": "2026-07-15T11:10:00Z",
   "source": "FinanceDataReader, pykrx",
   "assets": {
     "kospi": {
@@ -7,7 +7,7 @@
       "name": "코스피",
       "unit": "index",
       "source": "FinanceDataReader",
-      "updatedAtKst": "2026.07.15 15:40 KST",
+      "updatedAtKst": "2026.07.15 20:10 KST",
       "data": [
         {
           "date": "2021-05-25",
@@ -17665,7 +17665,7 @@
       "name": "삼성전자",
       "unit": "krw",
       "source": "pykrx",
-      "updatedAtKst": "2026.07.15 15:40 KST",
+      "updatedAtKst": "2026.07.15 20:10 KST",
       "data": [
         {
           "date": "2021-05-25",
@@ -35323,7 +35323,7 @@
       "name": "SK하이닉스",
       "unit": "krw",
       "source": "pykrx",
-      "updatedAtKst": "2026.07.15 15:40 KST",
+      "updatedAtKst": "2026.07.15 20:10 KST",
       "data": [
         {
           "date": "2021-05-25",
