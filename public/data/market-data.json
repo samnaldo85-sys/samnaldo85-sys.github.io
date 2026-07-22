@@ -40,9 +40,9 @@
         {
           "date": "2021-06-04",
           "close": 3240.08,
-          "ma50": 3159.94,
-          "disparity": 102.54,
-          "status": "과열해소"
+          "ma50": null,
+          "disparity": null,
+          "status": null
         },
         {
           "date": "2021-06-07",
@@ -8862,9 +8862,9 @@
         {
           "date": "2021-06-04",
           "close": 3240.08,
-          "ma50": 3159.94,
-          "disparity": 102.54,
-          "status": "과열해소"
+          "ma50": null,
+          "disparity": null,
+          "status": null
         },
         {
           "date": "2021-06-07",
@@ -17698,9 +17698,9 @@
         {
           "date": "2021-06-04",
           "close": 82200.0,
-          "ma50": 82062.0,
-          "disparity": 100.17,
-          "status": "과열해소"
+          "ma50": null,
+          "disparity": null,
+          "status": null
         },
         {
           "date": "2021-06-07",
@@ -26520,9 +26520,9 @@
         {
           "date": "2021-06-04",
           "close": 82200.0,
-          "ma50": 82062.0,
-          "disparity": 100.17,
-          "status": "과열해소"
+          "ma50": null,
+          "disparity": null,
+          "status": null
         },
         {
           "date": "2021-06-07",
@@ -35356,9 +35356,9 @@
         {
           "date": "2021-06-04",
           "close": 128500.0,
-          "ma50": 130980.0,
-          "disparity": 98.11,
-          "status": "과열해소"
+          "ma50": null,
+          "disparity": null,
+          "status": null
         },
         {
           "date": "2021-06-07",
@@ -44178,9 +44178,9 @@
         {
           "date": "2021-06-04",
           "close": 128500.0,
-          "ma50": 130980.0,
-          "disparity": 98.11,
-          "status": "과열해소"
+          "ma50": null,
+          "disparity": null,
+          "status": null
         },
         {
           "date": "2021-06-07",
