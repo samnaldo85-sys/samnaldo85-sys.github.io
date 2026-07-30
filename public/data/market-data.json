@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-29T11:10:00Z",
+  "generatedAt": "2026-07-30T03:00:00Z",
   "source": "FinanceDataReader, pykrx",
   "assets": {
     "kospi": {
@@ -7,15 +7,8 @@
       "name": "코스피",
       "unit": "index",
       "source": "FinanceDataReader",
-      "updatedAtKst": "2026.07.29 20:10 KST",
+      "updatedAtKst": "2026.07.30 12:00 KST",
       "data": [
-        {
-          "date": "2021-06-07",
-          "close": 3252.12,
-          "ma50": null,
-          "disparity": null,
-          "status": null
-        },
         {
           "date": "2021-06-08",
           "close": 3247.83,
@@ -40,9 +33,9 @@
         {
           "date": "2021-06-11",
           "close": 3249.32,
-          "ma50": 3179.41,
-          "disparity": 102.2,
-          "status": "과열해소"
+          "ma50": null,
+          "disparity": null,
+          "status": null
         },
         {
           "date": "2021-06-14",
@@ -8827,18 +8820,18 @@
           "close": 5663.24,
           "ma50": 7805.31,
           "disparity": 72.56,
+          "status": "과열해소"
+        },
+        {
+          "date": "2026-07-30",
+          "close": 5668.85,
+          "ma50": 7768.36,
+          "disparity": 72.97,
           "status": "과열해소"
         }
       ],
       "records": [
         {
-          "date": "2021-06-07",
-          "close": 3252.12,
-          "ma50": null,
-          "disparity": null,
-          "status": null
-        },
-        {
           "date": "2021-06-08",
           "close": 3247.83,
           "ma50": null,
@@ -8862,9 +8855,9 @@
         {
           "date": "2021-06-11",
           "close": 3249.32,
-          "ma50": 3179.41,
-          "disparity": 102.2,
-          "status": "과열해소"
+          "ma50": null,
+          "disparity": null,
+          "status": null
         },
         {
           "date": "2021-06-14",
@@ -17650,14 +17643,21 @@
           "ma50": 7805.31,
           "disparity": 72.56,
           "status": "과열해소"
+        },
+        {
+          "date": "2026-07-30",
+          "close": 5668.85,
+          "ma50": 7768.36,
+          "disparity": 72.97,
+          "status": "과열해소"
         }
       ],
-      "lastDate": "2026-07-29",
-      "lastClose": 5663.24,
-      "date": "2026-07-29",
-      "close": 5663.24,
-      "ma50": 7805.31,
-      "disparity": 72.56,
+      "lastDate": "2026-07-30",
+      "lastClose": 5668.85,
+      "date": "2026-07-30",
+      "close": 5668.85,
+      "ma50": 7768.36,
+      "disparity": 72.97,
       "status": "과열해소"
     },
     "samsung": {
@@ -17665,15 +17665,8 @@
       "name": "삼성전자",
       "unit": "krw",
       "source": "pykrx",
-      "updatedAtKst": "2026.07.29 20:10 KST",
+      "updatedAtKst": "2026.07.30 12:00 KST",
       "data": [
-        {
-          "date": "2021-06-07",
-          "close": 81900.0,
-          "ma50": null,
-          "disparity": null,
-          "status": null
-        },
         {
           "date": "2021-06-08",
           "close": 81900.0,
@@ -17698,9 +17691,9 @@
         {
           "date": "2021-06-11",
           "close": 81000.0,
-          "ma50": 82042.0,
-          "disparity": 98.73,
-          "status": "과열해소"
+          "ma50": null,
+          "disparity": null,
+          "status": null
         },
         {
           "date": "2021-06-14",
@@ -26485,18 +26478,18 @@
           "close": 208500.0,
           "ma50": 301250.0,
           "disparity": 69.21,
+          "status": "과열해소"
+        },
+        {
+          "date": "2026-07-30",
+          "close": 209500.0,
+          "ma50": 299820.0,
+          "disparity": 69.88,
           "status": "과열해소"
         }
       ],
       "records": [
         {
-          "date": "2021-06-07",
-          "close": 81900.0,
-          "ma50": null,
-          "disparity": null,
-          "status": null
-        },
-        {
           "date": "2021-06-08",
           "close": 81900.0,
           "ma50": null,
@@ -26520,9 +26513,9 @@
         {
           "date": "2021-06-11",
           "close": 81000.0,
-          "ma50": 82042.0,
-          "disparity": 98.73,
-          "status": "과열해소"
+          "ma50": null,
+          "disparity": null,
+          "status": null
         },
         {
           "date": "2021-06-14",
@@ -35308,14 +35301,21 @@
           "ma50": 301250.0,
           "disparity": 69.21,
           "status": "과열해소"
+        },
+        {
+          "date": "2026-07-30",
+          "close": 209500.0,
+          "ma50": 299820.0,
+          "disparity": 69.88,
+          "status": "과열해소"
         }
       ],
-      "lastDate": "2026-07-29",
-      "lastClose": 208500.0,
-      "date": "2026-07-29",
-      "close": 208500.0,
-      "ma50": 301250.0,
-      "disparity": 69.21,
+      "lastDate": "2026-07-30",
+      "lastClose": 209500.0,
+      "date": "2026-07-30",
+      "close": 209500.0,
+      "ma50": 299820.0,
+      "disparity": 69.88,
       "status": "과열해소"
     },
     "skhynix": {
@@ -35323,15 +35323,8 @@
       "name": "SK하이닉스",
       "unit": "krw",
       "source": "pykrx",
-      "updatedAtKst": "2026.07.29 20:10 KST",
+      "updatedAtKst": "2026.07.30 12:00 KST",
       "data": [
-        {
-          "date": "2021-06-07",
-          "close": 128500.0,
-          "ma50": null,
-          "disparity": null,
-          "status": null
-        },
         {
           "date": "2021-06-08",
           "close": 127500.0,
@@ -35356,9 +35349,9 @@
         {
           "date": "2021-06-11",
           "close": 128000.0,
-          "ma50": 130230.0,
-          "disparity": 98.29,
-          "status": "과열해소"
+          "ma50": null,
+          "disparity": null,
+          "status": null
         },
         {
           "date": "2021-06-14",
@@ -44143,18 +44136,18 @@
           "close": 1401000.0,
           "ma50": 2178420.0,
           "disparity": 64.31,
+          "status": "과열해소"
+        },
+        {
+          "date": "2026-07-30",
+          "close": 1329000.0,
+          "ma50": 2168200.0,
+          "disparity": 61.3,
           "status": "과열해소"
         }
       ],
       "records": [
         {
-          "date": "2021-06-07",
-          "close": 128500.0,
-          "ma50": null,
-          "disparity": null,
-          "status": null
-        },
-        {
           "date": "2021-06-08",
           "close": 127500.0,
           "ma50": null,
@@ -44178,9 +44171,9 @@
         {
           "date": "2021-06-11",
           "close": 128000.0,
-          "ma50": 130230.0,
-          "disparity": 98.29,
-          "status": "과열해소"
+          "ma50": null,
+          "disparity": null,
+          "status": null
         },
         {
           "date": "2021-06-14",
@@ -52966,14 +52959,21 @@
           "ma50": 2178420.0,
           "disparity": 64.31,
           "status": "과열해소"
+        },
+        {
+          "date": "2026-07-30",
+          "close": 1329000.0,
+          "ma50": 2168200.0,
+          "disparity": 61.3,
+          "status": "과열해소"
         }
       ],
-      "lastDate": "2026-07-29",
-      "lastClose": 1401000.0,
-      "date": "2026-07-29",
-      "close": 1401000.0,
-      "ma50": 2178420.0,
-      "disparity": 64.31,
+      "lastDate": "2026-07-30",
+      "lastClose": 1329000.0,
+      "date": "2026-07-30",
+      "close": 1329000.0,
+      "ma50": 2168200.0,
+      "disparity": 61.3,
       "status": "과열해소"
     }
   }
