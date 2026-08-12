@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-12T03:00:00Z",
+  "generatedAt": "2026-08-12T06:40:00Z",
   "source": "FinanceDataReader, pykrx",
   "assets": {
     "kospi": {
@@ -7,7 +7,7 @@
       "name": "코스피",
       "unit": "index",
       "source": "FinanceDataReader",
-      "updatedAtKst": "2026.08.12 12:00 KST",
+      "updatedAtKst": "2026.08.12 15:40 KST",
       "data": [
         {
           "date": "2021-06-21",
@@ -8824,9 +8824,9 @@
         },
         {
           "date": "2026-08-12",
-          "close": 6637.57,
-          "ma50": 7482.42,
-          "disparity": 88.71,
+          "close": 6577.24,
+          "ma50": 7481.21,
+          "disparity": 87.92,
           "status": "과열해소"
         }
       ],
@@ -17646,18 +17646,18 @@
         },
         {
           "date": "2026-08-12",
-          "close": 6637.57,
-          "ma50": 7482.42,
-          "disparity": 88.71,
+          "close": 6577.24,
+          "ma50": 7481.21,
+          "disparity": 87.92,
           "status": "과열해소"
         }
       ],
       "lastDate": "2026-08-12",
-      "lastClose": 6637.57,
+      "lastClose": 6577.24,
       "date": "2026-08-12",
-      "close": 6637.57,
-      "ma50": 7482.42,
-      "disparity": 88.71,
+      "close": 6577.24,
+      "ma50": 7481.21,
+      "disparity": 87.92,
       "status": "과열해소"
     },
     "samsung": {
@@ -17665,7 +17665,7 @@
       "name": "삼성전자",
       "unit": "krw",
       "source": "pykrx",
-      "updatedAtKst": "2026.08.12 12:00 KST",
+      "updatedAtKst": "2026.08.12 15:40 KST",
       "data": [
         {
           "date": "2021-06-21",
@@ -26482,9 +26482,9 @@
         },
         {
           "date": "2026-08-12",
-          "close": 257250.0,
-          "ma50": 288995.0,
-          "disparity": 89.02,
+          "close": 255500.0,
+          "ma50": 288960.0,
+          "disparity": 88.42,
           "status": "과열해소"
         }
       ],
@@ -35304,18 +35304,18 @@
         },
         {
           "date": "2026-08-12",
-          "close": 257250.0,
-          "ma50": 288995.0,
-          "disparity": 89.02,
+          "close": 255500.0,
+          "ma50": 288960.0,
+          "disparity": 88.42,
           "status": "과열해소"
         }
       ],
       "lastDate": "2026-08-12",
-      "lastClose": 257250.0,
+      "lastClose": 255500.0,
       "date": "2026-08-12",
-      "close": 257250.0,
-      "ma50": 288995.0,
-      "disparity": 89.02,
+      "close": 255500.0,
+      "ma50": 288960.0,
+      "disparity": 88.42,
       "status": "과열해소"
     },
     "skhynix": {
@@ -35323,7 +35323,7 @@
       "name": "SK하이닉스",
       "unit": "krw",
       "source": "pykrx",
-      "updatedAtKst": "2026.08.12 12:00 KST",
+      "updatedAtKst": "2026.08.12 15:40 KST",
       "data": [
         {
           "date": "2021-06-21",
@@ -44140,9 +44140,9 @@
         },
         {
           "date": "2026-08-12",
-          "close": 1520000.0,
-          "ma50": 2071280.0,
-          "disparity": 73.38,
+          "close": 1504000.0,
+          "ma50": 2070960.0,
+          "disparity": 72.62,
           "status": "과열해소"
         }
       ],
@@ -52962,18 +52962,18 @@
         },
         {
           "date": "2026-08-12",
-          "close": 1520000.0,
-          "ma50": 2071280.0,
-          "disparity": 73.38,
+          "close": 1504000.0,
+          "ma50": 2070960.0,
+          "disparity": 72.62,
           "status": "과열해소"
         }
       ],
       "lastDate": "2026-08-12",
-      "lastClose": 1520000.0,
+      "lastClose": 1504000.0,
       "date": "2026-08-12",
-      "close": 1520000.0,
-      "ma50": 2071280.0,
-      "disparity": 73.38,
+      "close": 1504000.0,
+      "ma50": 2070960.0,
+      "disparity": 72.62,
       "status": "과열해소"
     }
   }
